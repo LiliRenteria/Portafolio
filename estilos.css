@@ -1,0 +1,147 @@
+
+
+body {
+    background-color: rgb(201, 200, 200);
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 50px 10px;
+}
+
+.section {
+    background-color: #ffff;
+    padding: 50px;
+    border-radius: 7px;
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.subsection {
+    width: 50%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(38, 157, 38);
+    border-radius: 50%;
+}
+
+.status {
+    display: flex;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 20px;
+    padding: 6px;
+    margin-right: 40px;
+}
+
+.p-status {
+    margin: 0 10px;
+}
+
+.profile {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+.p-desc {
+font-size: 28px;
+border-bottom: 1px solid rgb(105, 104, 102);
+padding-bottom: 30px;
+text-align: justify;
+}
+
+.btn-black {
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+.btn-black:hover {
+    background-color: #ffff;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-lined {
+background-color: #ffff;
+color: black;
+padding: 20px;
+border-radius: 30px;
+text-decoration: underline;
+border: 2px solid black;
+
+}
+
+.btn-lined:hover {
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+}
+.section-title{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+}
+
+.sticky-nav {
+    height: 200px;
+    width: 50px;
+    background-color: black;
+    border-radius: 30px;
+    position: sticky;
+    top: 60px;
+    left: -30px;
+}
+
+li {
+    color: #e19797;
+    padding: 0%;
+}
+ul {
+    text-decoration: none;
+    padding: 0;
+
+}
+
+.h3 {
+    padding: 30px;
+    margin: 0%;
+}
+
+.edu{
+margin: 30px;
+font-size:larger;
+font-family: 'Times New Roman', Times, serif;
+text-decoration:underline;
+
+}
+
+.exp{
+    margin: 30px;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:underline;
+    justify-content: right;
+    
+    
+}
+
+.img{
+    max-width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
